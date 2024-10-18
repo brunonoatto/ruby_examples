@@ -4,7 +4,7 @@ Movie filter
 - Os filmes podem ser filtrados por gênero (Genre) ou ano de lançamento (Year)
 - Funciona da seguinte maneira:
 
-$ ruby movie_filter.rb genre=Action year=2014
+$ ruby movie_filter.rb Genre=Action Year=2014
 
 Output:
 
@@ -36,3 +36,7 @@ O que é praticado nesse projeto:
 - Loops / Blocks
 - Condicionais
 - Utilização de gems
+
+Run tests
+
+rspec
